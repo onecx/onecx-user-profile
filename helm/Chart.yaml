@@ -2,9 +2,18 @@ apiversion: v2
 name: onecx-user-profile
 version: 0.0.0
 appversion: 0.0.0
-# dependencies:
-# - name: onecx-user-profile-svc
-#   version: "*-0"
-#   repository: oci://ghcr.io/onecx/charts
-#   condition: "deployment.svc"  
-#   alias: "svc"
+dependencies:
+- name: helm-product
+  version: ^0
+  repository: oci://ghcr.io/onecx/charts
+  alias: product
+- name: onecx-user-profile-svc
+  version: "*-0"
+  repository: oci://ghcr.io/onecx/charts
+  condition: "deployment.svc"
+  alias: "svc"
+- name: onecx-user-profile-bff
+  version: "*-0"
+  repository: oci://ghcr.io/onecx/charts
+  condition: "deployment.bff"
+  alias: "bff"  

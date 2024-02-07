@@ -1,0 +1,12 @@
+dependencies:
+- name: helm-product
+  repository: oci://ghcr.io/onecx/charts
+  version: 0.1.0
+- name: onecx-user-profile-svc
+  repository: oci://ghcr.io/onecx/charts
+  version: 0.0.0-rc.6
+- name: onecx-user-profile-bff
+  repository: oci://ghcr.io/onecx/charts
+  version: 0.0.0-rc.4
+digest: sha256:2c8f9f8106bb35d2ceefc46c1d1949af36e2bfb9224a516e2876a2d8b0809d27
+generated: "2024-02-07T11:55:50.498717029+01:00"
