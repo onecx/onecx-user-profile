@@ -1,2 +1,12 @@
-# deployment:
-#   svc: true
+deployment:
+  svc: true
+  bff: true
+
+product:
+  info:
+    data:
+      description: "OneCX user profile"
+      imageUrl: ""
+      iconName: "lock"
+      displayName: "OneCX User Profile"
+      basePath: "/user"
