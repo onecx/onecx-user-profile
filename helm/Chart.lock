@@ -7,9 +7,9 @@ dependencies:
   version: 0.0.0-rc.19
 - name: onecx-user-profile-bff
   repository: oci://ghcr.io/onecx/charts
-  version: 0.0.0-rc.14
+  version: 0.0.0-rc.15
 - name: onecx-user-profile-ui
   repository: oci://ghcr.io/onecx/charts
   version: 0.0.0-rc.6
-digest: sha256:4bf22170d7110c5b652b6dff0e9ae70f012fa9bf73cb85d33a66f02344237576
-generated: "2024-05-03T10:06:11.900534988Z"
+digest: sha256:ceb7136527f71950b65887066a8be7318958727687e443c3e35fd3a896b2e0d5
+generated: "2024-05-03T10:09:47.086177501Z"
