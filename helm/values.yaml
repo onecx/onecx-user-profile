@@ -1,5 +1,6 @@
 deployment:
   svc: true
+  avatar-svc: true
   bff: true
   ui: true
 

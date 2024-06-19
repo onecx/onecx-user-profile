@@ -15,8 +15,8 @@ dependencies:
 - name: onecx-user-profile-avatar-svc
   version: "*-0"
   repository: oci://ghcr.io/onecx/charts
-  condition: "deployment.svc"
-  alias: "svc"
+  condition: "deployment.avatar-svc"
+  alias: "avatar-svc"
 - name: onecx-user-profile-bff
   version: "*-0"
   repository: oci://ghcr.io/onecx/charts
