@@ -1,0 +1,9 @@
+name: onecx-user-profile
+title: User Profile Management
+version: latest
+start_page: onecx-user-profile:index.adoc
+nav:
+  - modules/onecx-user-profile/nav.adoc
+  - modules/onecx-user-profile-svc/nav.adoc
+  - modules/onecx-user-profile-avatar-svc/nav.adoc
+  - modules/onecx-user-profile-bff/nav.adoc
