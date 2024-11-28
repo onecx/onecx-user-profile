@@ -1,5 +1,52 @@
 = OneCX User Profile
 
+.User Profile UI
+image::overview.png[]
+
+== Overview
+A *user profile* is created when the user logs in for the first time in the system. This profile allows users to customize their experience and manage their settings. Key features include:
+
+*Profile Management*
+
+* View Profile: Display stored information.
+* Edit Profile: Allow changes to profile picture, bio, language, timezone, and menu orientation. Note: Name, email, and password are not editable.
+
+*Customization Settings*
+
+* Menu Orientation: Choose between horizontal and vertical navigation menus.
+* Language: Select preferred language.
+* Timezone: Set the timezone.
+* Avatar: Upload a profile picture.
+Privacy features & Password Change is not supported in the initial version.
+
+*Admin Features*
+
+* Profile Access: Admins can view and edit user profiles to assist with support issues.
+* Activity Log: Track changes made by admins for security and auditing purposes.
+
+*Permissions & Roles*
+
+* View Permissions: Users can see their permissions and roles within the system.
+
+== Benefits
+* Better User Experience: Provides a personalized and user-friendly interface for managing profiles, enhancing overall satisfaction.
+* Efficient Management: Streamlines the process of managing user profiles, saving time and resources for administrators.
+
+== UI Examples
+
+.Language and timezone settings
+image::language_timezone.png[]
+.Layout and theme settings
+image::layout_theme.png[]
+.User permissions
+image::permissions.png[]
+
+=== User Profile Administration
+.Users management
+image::users.png[]
+.User configuration
+image::user_details.png[]
+
 == Licence
 This software is licensed under the Apache License, Version 2.0.
 You may obtain a copy of the license in the corresponding LICENSE file or visit the link:https://www.apache.org/licenses/LICENSE-2.0[Apache website] for more information.
@@ -8,16 +55,10 @@ You may obtain a copy of the license in the corresponding LICENSE file or visit 
 We welcome contributions from the community.
 If you would like to contribute to the development of OneCX User Profile Software, please follow our contribution guidelines (tbd).
 
-== What is User Profile?
-User Profile refers to storing and retrieving User Profiles usable in context of OneCX applications.
-
-== Key Features
-* User Profile Storage and Retrieval: Store and retrieve User Profiles usable in context of OneCX applications.
-
-== Issue tracking
+== Issue Tracking
 All OneCX User Profile issues are tracked and maintained at the link:https://xyz.com[issue tracking tool].
 
-== Overview
+== Structure Overview
 OneCX User Profile Software is a comprehensive solution for managing User Profiles in a user-friendly and efficient manner.
 It is a solution that consists of three main components: a backend service, a user interface and a backend-for-frontend (BFF) layer.
 
