@@ -7,8 +7,10 @@ deployment:
 product:
   info:
     data:
-      description: "OneCX user profile"
+      description: "Manage User Settings"
       imageUrl: ""
-      iconName: "lock"
+      iconName: user
       displayName: "OneCX User Profile"
-      basePath: "/user"
+      basePath: /user
+      provider: "OneCX Team"
+      classifications: [ "Administration" ]
