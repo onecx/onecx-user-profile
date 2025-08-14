@@ -13,6 +13,6 @@ dependencies:
   version: 1.9.0-rc.17
 - name: onecx-user-profile-ui
   repository: oci://ghcr.io/onecx/charts
-  version: 1.9.0-rc.18
-digest: sha256:f6b07bfc02151d8423a0e3ce0df9cd4cf3692e04f40295a23b253bc04f5561e8
-generated: "2025-08-13T08:55:17.04279646Z"
+  version: 1.9.0-rc.19
+digest: sha256:627691a7140194c2411ecccbb4151a1cb0dd301af53bfd1c4b80657469c61edf
+generated: "2025-08-14T04:24:00.998662517Z"
