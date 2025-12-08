@@ -1,0 +1,9 @@
+* xref:documentation:onecx-user-profile:index.adoc[User Profile]
++
+include::documentation:onecx-user-profile-ui:partial$nav.adoc[]
++
+include::documentation:onecx-user-profile-bff:partial$nav.adoc[]
++
+include::documentation:onecx-user-profile-svc:partial$nav.adoc[]
++
+include::documentation:onecx-user-profile-avatar-svc:partial$nav.adoc[]
