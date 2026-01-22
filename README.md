@@ -1,2 +1,2 @@
 # onecx-user-profile
-OneCx user-profile
+OneCX User Profile
