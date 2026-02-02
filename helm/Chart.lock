@@ -4,15 +4,15 @@ dependencies:
   version: 0.4.0
 - name: onecx-user-profile-svc
   repository: oci://ghcr.io/onecx/charts
-  version: 1.12.0-rc.2
+  version: 1.12.0
 - name: onecx-user-profile-avatar-svc
   repository: oci://ghcr.io/onecx/charts
-  version: 1.11.0-rc.2
+  version: 1.11.0
 - name: onecx-user-profile-bff
   repository: oci://ghcr.io/onecx/charts
-  version: 1.12.0-rc.3
+  version: 1.12.0
 - name: onecx-user-profile-ui
   repository: oci://ghcr.io/onecx/charts
-  version: 1.11.0-rc.4
-digest: sha256:8fc71eb92f9a999c7e27ef6e8f3942d3b2e0f1abe154466d6081d445d72615ef
-generated: "2026-02-02T14:39:04.084334295Z"
+  version: 1.11.0
+digest: sha256:646fde99d3384472762cd251842e553f88cda5b2651e3a01236f957913346800
+generated: "2026-02-02T15:14:59.068700846Z"
